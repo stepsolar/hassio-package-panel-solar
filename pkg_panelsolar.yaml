@@ -1,0 +1,300 @@
+homeassistant:
+  customize:
+    package.node_anchors:
+      customize: &customize
+        Package: 'Contatore Pannelli Solari'
+        Version: '0.1.1'
+        Author: 'Stefano Marchese'
+        icon: 'mdi:counter'
+        #entity_picture: https://avatars.githubusercontent.com/u/84263865?s=400&v=4
+        reference: 'stepsolar - github chat'
+      expose: &expose
+        <<: *customize
+        haaska_hidden: false
+        homebridge_hidden: false
+        
+        
+    sensor.produzione_giornaliero_panel_1_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_2_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_3_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_4_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_5_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_6_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_7_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_8_f1:
+        <<: *customize        
+                       
+        
+  customize_glob:
+    sensor.produzione_giornaliero_panel_1_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_2_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_3_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_4_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_5_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_6_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_7_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_8_f1:
+        <<: *customize 
+
+
+#downloader:
+#  download_dir: packages    
+utility_meter:
+  produzione_giornaliero_panel_1:
+    source: sensor.lifetime_energy_1_1_1
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_2:
+    source: sensor.lifetime_energy_1_1_2
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_3:
+    source: sensor.lifetime_energy_1_1_3
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_4:
+    source: sensor.lifetime_energy_1_1_4
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_5:
+    source: sensor.lifetime_energy_1_1_5
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_6:
+    source: sensor.lifetime_energy_1_1_6
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_7:
+    source: sensor.lifetime_energy_1_1_7
+    cycle: daily 
+    tariffs:
+      - f1
+  produzione_giornaliero_panel_8:
+    source: sensor.lifetime_energy_1_1_8
+    cycle: daily 
+    tariffs:
+      - f1
+
+
+
+
+sensor:
+   - platform: rest
+     resource: https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/versione.json
+     name: Versione pk panel solar
+     value_template: '{{ value_json.versione }}'
+
+   - platform: rest
+     resource: https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/versione.json
+     name: tipo aggiornamento pk panel solar
+     value_template: '{{ value_json.cosa_aggiornare }}'
+
+
+
+   - platform: template
+     sensors:
+       panel_1_oggi:
+        friendly_name_template: " Panel 1 Energy "
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_2_oggi:
+        friendly_name_template: " Panel 2 Energy "
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_3_oggi:
+        friendly_name_template: " Panel 3 Energy "
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_4_oggi:
+        friendly_name_template: " Panel 4 Energy "
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_5_oggi:
+        friendly_name_template: " Panel 5 Energy "
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_6_oggi:
+        friendly_name_template: " Panel 6 Energy "
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_7_oggi:
+        friendly_name_template: " Panel 7 Energy "
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_8_oggi:
+        friendly_name_template: " Panel 8 Energy "
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+
+#------------------calcoli ieri-----------------------------------------##
+
+       panel_1_ieri:
+        friendly_name_template: " Panel 1 Energy Ieri "
+        unique_id: panel_1_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_2_ieri:
+        friendly_name_template: " Panel 2 Energy Ieri"
+        unique_id: panel_2_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_3_ieri:
+        friendly_name_template: " Panel 3 Energy Ieri"
+        unique_id: panel_3_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_4_ieri:
+        friendly_name_template: " Panel 4 Energy Ieri"
+        unique_id: panel_4_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_5_ieri:
+        friendly_name_template: " Panel 5 Energy Ieri"
+        unique_id: panel_5_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_6_ieri:
+        friendly_name_template: " Panel 6 Energy Ieri"
+        unique_id: panel_6_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_7_ieri:
+        friendly_name_template: " Panel 7 Energy Ieri"
+        unique_id: panel_7_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_8_ieri:
+        friendly_name_template: " Panel 8 Energy Ieri"
+        unique_id: panel_8_energy_ieri
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.attributes.last_period | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+
+
+
+##--------------------AUTOMAZIONI---------------------##      
+automation:
+#####################controllo aggiornamenti############################
+  - alias: controllo versione pkpanelsolar
+    trigger:
+    - platform: time
+      at: '18:00'
+    - event: start
+      platform: homeassistant
+    condition:
+      - condition: template
+        value_template: "{{ states('sensor.versione_pk_panel_solar') > (state_attr('input_number.costo_f1', 'Version')) }}"
+    action:
+    - service: input_boolean.turn_on
+      data:
+        entity_id: input_boolean.versione_pkpanelsolar
+
+  - alias: controllo versione reset pkmanelsolar
+    trigger:
+    - platform: time
+      at: '18:05'
+    - event: start
+      platform: homeassistant
+    condition:
+      - condition: template
+        value_template: "{{ states('sensor.versione_pk_panel_solar') == (state_attr('input_number.costo_f1', 'Version')) }}"
+    action:
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.versione_pkpanelsolar
+
+
+#invio messaggio storico
+
+#################################
+ 
+#input_select:
+#  numero_di_fasce:
+#    name: Numero di Fasce
+#    options:
+#      - 1
+#      - 2
+#      - 3
+#    initial: !secret NumeroTariffe
+
+input_boolean:
+  versione_pkpanelsolar:
+script:
+  scarica_pkg:
+    sequence:
+      - service: notify.persistent_notification
+        data:
+          message: 'Aggiorno il pacchetto... attendere'
+      - service: downloader.download_file
+        data:
+          url: 'https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/pkg_panelsolar.yaml'
+          overwrite: true
+      - delay: 5      
+      - service: downloader.download_file
+        data:
+          url: 'https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/lovelace-dash-light.txt'
+          overwrite: true
+      - delay: 5
+      #- service: homeassistant.restart
+      - delay: 5
+      - service: notify.persistent_notification
+        data:
+          message: 'Package Panel Solar Aggiornato. Ricarico i servizi'
+      - delay: 1  
+     # - service: homeassistant.restart
+      - service: automation.reload
+      - service: input_boolean.reload
+      - service: input_select.reload
+      - service: input_number.reload
+      - service: input_datetime.reload
+      - service: template.reload
+      - service: notify.persistent_notification
+        data:
+          message: 'Servizi Ricaricati. ricarico in ultimo gli script'
+      - service: script.reload
+      - service: notify.notify
+        data:
+          message: 'Aggiornamento Pk Panel Solar Fatto, se vuoi puoi offrire un caffe al creatore del pacchetto a questo link https://xxxxxxxxxxx'
