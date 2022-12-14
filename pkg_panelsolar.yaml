@@ -232,7 +232,7 @@ automation:
       data:
         entity_id: input_boolean.versione_pkpanelsolar
 
-  - alias: controllo versione reset pkmanelsolar
+  - alias: controllo versione reset pkpanelsolar
     trigger:
     - platform: time
       at: '18:05'
