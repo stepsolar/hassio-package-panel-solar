@@ -1,0 +1,1 @@
+# hassio-package-panel-solar
