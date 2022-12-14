@@ -52,7 +52,7 @@ homeassistant:
 
 
 downloader:
-  download_dirt: packages    
+  download_dir: packages    
 utility_meter:
   produzione_giornaliero_panel_1:
     source: sensor.lifetime_energy_1_1_1
