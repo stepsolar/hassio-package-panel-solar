@@ -1,4 +1,4 @@
-# Package Panel Solar Optimizer Solaredge Home Assistant [@stepsolar](https://github.com/stepsolar/) <!-- omit in toc -->
+# Package Panel Solar Optimizer Solaredge Home-Assistant [@stepsolar](https://github.com/stepsolar/) <!-- omit in toc -->
 
 ![Header](https://github.com/stepsolar/hassio-package-panel-solar/blob/main/docs/Solar%20Panel.png)
 
