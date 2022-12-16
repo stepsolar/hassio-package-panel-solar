@@ -263,7 +263,7 @@ automation:
 input_boolean:
   versione_pkpanelsolar:
 script:
-  scarica_pkg:
+  scarica_pkpanelsolar:
     sequence:
       - service: notify.persistent_notification
         data:
