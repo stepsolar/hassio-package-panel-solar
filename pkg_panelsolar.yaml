@@ -55,42 +55,42 @@ homeassistant:
   #download_dir: packages    
 utility_meter:
   produzione_giornaliero_panel_1:
-    source: sensor.lifetime_energy_1_1_1
+    source: !secret Pannello1
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_2:
-    source: sensor.lifetime_energy_1_1_2
+    source: !secret Pannello2
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_3:
-    source: sensor.lifetime_energy_1_1_3
+    source: !secret Pannello3
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_4:
-    source: sensor.lifetime_energy_1_1_4
+    source: !secret Pannello4
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_5:
-    source: sensor.lifetime_energy_1_1_5
+    source: !secret Pannello5
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_6:
-    source: sensor.lifetime_energy_1_1_6
+    source: !secret Pannello6
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_7:
-    source: sensor.lifetime_energy_1_1_7
+    source: !secret Pannello7
     cycle: daily 
     tariffs:
       - f1
   produzione_giornaliero_panel_8:
-    source: sensor.lifetime_energy_1_1_8
+    source: !secret Pannello8
     cycle: daily 
     tariffs:
       - f1
