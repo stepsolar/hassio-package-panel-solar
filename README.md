@@ -1,6 +1,6 @@
 # Panel Solar Optimizer [@stepsolar](https://github.com/stepsolar/) <!-- omit in toc -->
 
-![Header](https://github.com/stepsolar/)
+![Header](https://github.com/stepsolar/hassio-package-panel-solar/blob/main/docs/Solar%20Panel.png)
 
 **INSTALLAZIONE**
 
