@@ -6,9 +6,7 @@
 
 1. copiare il file pkg_panelsolar.yaml e secrets.yaml (se gia esistente copiare l contenuto del vostro sectrets.yaml) nella cartella "/config/packages" e modificarlo seguendo le istruzioni interne al file secrets.yaml.
 
-2. installare dal menu frontend di hacs i seguenti:
-
-- picture-elements
+2. installare l'Integrazione https://github.com/ProudElm/solaredgeoptimizers
 
 ____________________________________
 
