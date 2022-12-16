@@ -3,7 +3,7 @@ homeassistant:
     package.node_anchors:
       customize: &customize
         Package: 'Contatore Pannelli Solari'
-        Version: '0.1.3'
+        Version: '0.1.4'
         Author: 'Stefano Marchese'
         icon: 'mdi:counter'
         #entity_picture: https://avatars.githubusercontent.com/u/84263865?s=400&v=4
