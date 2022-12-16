@@ -1,1 +1,91 @@
-
+type: picture-elements
+image: /local/images/panel/panel.jpg
+elements:
+  - type: state-label
+    entity: sensor.power_1_1_1
+    style:
+      top: 23%
+      left: 14%
+      font-size: 135%
+  - type: state-label
+    entity: sensor.power_1_1_2
+    style:
+      top: 23%
+      left: 87%
+      font-size: 135%
+  - type: state-label
+    entity: sensor.power_1_1_3
+    style:
+      top: 56%
+      left: 82%
+      font-size: 150%
+  - type: state-label
+    entity: sensor.power_1_1_4
+    style:
+      top: 56%
+      left: 50%
+      font-size: 150%
+  - type: state-label
+    entity: sensor.power_1_1_5
+    style:
+      top: 56%
+      left: 18%
+      font-size: 150%
+  - type: state-label
+    entity: sensor.power_1_1_6
+    style:
+      top: 80%
+      left: 18%
+      font-size: 150%
+  - type: state-label
+    entity: sensor.power_1_1_7
+    style:
+      top: 80%
+      left: 50%
+      font-size: 150%
+  - type: state-label
+    entity: sensor.power_1_1_8
+    style:
+      top: 80%
+      left: 82%
+      font-size: 150%
+  - type: state-label
+    entity: sensor.panel_1_oggi
+    style:
+      top: 31%
+      left: 14%
+  - type: state-label
+    entity: sensor.panel_2_oggi
+    style:
+      top: 31%
+      left: 87%
+  - type: state-label
+    entity: sensor.panel_3_oggi
+    style:
+      top: 62%
+      left: 82%
+  - type: state-label
+    entity: sensor.panel_4_oggi
+    style:
+      top: 62%
+      left: 50%
+  - type: state-label
+    entity: sensor.panel_5_oggi
+    style:
+      top: 62%
+      left: 18%
+  - type: state-label
+    entity: sensor.panel_6_oggi
+    style:
+      top: 86%
+      left: 18%
+  - type: state-label
+    entity: sensor.panel_7_oggi
+    style:
+      top: 86%
+      left: 50%
+  - type: state-label
+    entity: sensor.panel_8_oggi
+    style:
+      top: 86%
+      left: 82%
