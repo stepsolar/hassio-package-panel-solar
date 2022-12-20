@@ -1,91 +1,174 @@
-type: picture-elements
-image: /local/images/panel/panel.jpg
-elements:
-  - type: state-label
-    entity: sensor.power_1_1_1
-    style:
-      top: 23%
-      left: 14%
-      font-size: 135%
-  - type: state-label
-    entity: sensor.power_1_1_2
-    style:
-      top: 23%
-      left: 87%
-      font-size: 135%
-  - type: state-label
-    entity: sensor.power_1_1_3
-    style:
-      top: 56%
-      left: 82%
-      font-size: 150%
-  - type: state-label
-    entity: sensor.power_1_1_4
-    style:
-      top: 56%
-      left: 50%
-      font-size: 150%
-  - type: state-label
-    entity: sensor.power_1_1_5
-    style:
-      top: 56%
-      left: 18%
-      font-size: 150%
-  - type: state-label
-    entity: sensor.power_1_1_6
-    style:
-      top: 80%
-      left: 18%
-      font-size: 150%
-  - type: state-label
-    entity: sensor.power_1_1_7
-    style:
-      top: 80%
-      left: 50%
-      font-size: 150%
-  - type: state-label
-    entity: sensor.power_1_1_8
-    style:
-      top: 80%
-      left: 82%
-      font-size: 150%
-  - type: state-label
-    entity: sensor.panel_1_oggi
-    style:
-      top: 31%
-      left: 14%
-  - type: state-label
-    entity: sensor.panel_2_oggi
-    style:
-      top: 31%
-      left: 87%
-  - type: state-label
-    entity: sensor.panel_3_oggi
-    style:
-      top: 62%
-      left: 82%
-  - type: state-label
-    entity: sensor.panel_4_oggi
-    style:
-      top: 62%
-      left: 50%
-  - type: state-label
-    entity: sensor.panel_5_oggi
-    style:
-      top: 62%
-      left: 18%
-  - type: state-label
-    entity: sensor.panel_6_oggi
-    style:
-      top: 86%
-      left: 18%
-  - type: state-label
-    entity: sensor.panel_7_oggi
-    style:
-      top: 86%
-      left: 50%
-  - type: state-label
-    entity: sensor.panel_8_oggi
-    style:
-      top: 86%
-      left: 82%
+type: custom:config-template-card
+variables:
+  - states['sensor.optimizer_voltage_1_1_1'].state
+  - states['sensor.optimizer_voltage_1_1_2'].state
+  - states['sensor.optimizer_voltage_1_1_3'].state
+  - states['sensor.optimizer_voltage_1_1_4'].state
+  - states['sensor.optimizer_voltage_1_1_5'].state
+  - states['sensor.optimizer_voltage_1_1_6'].state
+  - states['sensor.optimizer_voltage_1_1_7'].state
+  - states['sensor.optimizer_voltage_1_1_8'].state
+entities:
+  - sensor.optimizer_voltage_1_1_1
+  - sensor.optimizer_voltage_1_1_2
+  - sensor.optimizer_voltage_1_1_3
+  - sensor.optimizer_voltage_1_1_4
+  - sensor.optimizer_voltage_1_1_5
+  - sensor.optimizer_voltage_1_1_6
+  - sensor.optimizer_voltage_1_1_7
+  - sensor.optimizer_voltage_1_1_8
+card:
+  type: picture-elements
+  elements:
+    - type: image
+      image: /local/images/panel/colorpanelvertical.png
+      style:
+        top: 18%
+        left: 11.8%
+        width: 20.4%
+        opacity: ${ vars[0] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelvertical.png
+      style:
+        top: 18%
+        left: 88.8%
+        width: 20.4%
+        opacity: ${ vars[1] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelorizontal.png
+      style:
+        top: 56%
+        left: 16.8%
+        width: 33%
+        opacity: ${ vars[2] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelorizontal.png
+      style:
+        top: 56%
+        left: 50%
+        width: 33%
+        opacity: ${ vars[3] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelorizontal.png
+      style:
+        top: 56%
+        left: 83%
+        width: 33%
+        opacity: ${ vars[4] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelorizontal.png
+      style:
+        top: 81%
+        left: 16.8%
+        width: 33%
+        opacity: ${ vars[5] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelorizontal.png
+      style:
+        top: 81%
+        left: 50%
+        width: 33%
+        opacity: ${ vars[6] / 100 }
+    - type: image
+      image: /local/images/panel/colorpanelorizontal.png
+      style:
+        top: 81%
+        left: 83%
+        width: 33%
+        opacity: ${ vars[7] / 100 }
+    - type: image
+      image: /local/images/panel/panelsolar.png
+      style:
+        width: 100%
+        top: 1%
+        left: 0%
+        transform: translate(0,0)
+    - type: state-label
+      entity: sensor.power_1_1_1
+      style:
+        top: 18%
+        left: 12%
+        font-size: 135%
+    - type: state-label
+      entity: sensor.power_1_1_2
+      style:
+        top: 18%
+        left: 89%
+        font-size: 135%
+    - type: state-label
+      entity: sensor.power_1_1_3
+      style:
+        top: 53%
+        left: 84%
+        font-size: 150%
+    - type: state-label
+      entity: sensor.power_1_1_4
+      style:
+        top: 53%
+        left: 50%
+        font-size: 150%
+    - type: state-label
+      entity: sensor.power_1_1_5
+      style:
+        top: 53%
+        left: 17%
+        font-size: 150%
+    - type: state-label
+      entity: sensor.power_1_1_6
+      style:
+        top: 79%
+        left: 17%
+        font-size: 150%
+    - type: state-label
+      entity: sensor.power_1_1_7
+      style:
+        top: 79%
+        left: 50%
+        font-size: 150%
+    - type: state-label
+      entity: sensor.power_1_1_8
+      style:
+        top: 79%
+        left: 84%
+        font-size: 150%
+    - type: state-label
+      entity: sensor.panel_1_oggi
+      style:
+        top: 28%
+        left: 12%
+    - type: state-label
+      entity: sensor.panel_2_oggi
+      style:
+        top: 28%
+        left: 89%
+    - type: state-label
+      entity: sensor.panel_3_oggi
+      style:
+        top: 60%
+        left: 84%
+    - type: state-label
+      entity: sensor.panel_4_oggi
+      style:
+        top: 60%
+        left: 50%
+    - type: state-label
+      entity: sensor.panel_5_oggi
+      style:
+        top: 60%
+        left: 18%
+    - type: state-label
+      entity: sensor.panel_6_oggi
+      style:
+        top: 86%
+        left: 18%
+    - type: state-label
+      entity: sensor.panel_7_oggi
+      style:
+        top: 86%
+        left: 50%
+    - type: state-label
+      entity: sensor.panel_8_oggi
+      style:
+        top: 86%
+        left: 84%
+  image: /local/images/panel/sfondo.png
