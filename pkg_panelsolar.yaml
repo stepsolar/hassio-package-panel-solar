@@ -3,7 +3,7 @@ homeassistant:
     package.node_anchors:
       customize: &customize
         Package: 'Contatore Pannelli Solari'
-        Version: '0.1.4'
+        Version: '0.1.5'
         Author: 'Stefano Marchese'
         icon: 'mdi:counter'
         #entity_picture: https://avatars.githubusercontent.com/u/84263865?s=400&v=4
@@ -162,6 +162,64 @@ sensor:
         value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
 
+################ PRODUZIONE TOTALE PANNELLI ################################################
+       produzione_panel_totale_oggi:
+        friendly_name_template: " Produzione Panel Totale Oggi "
+        unique_id: produzione_panel_totale_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_1_oggi.state | float(0)) + (states.sensor.panel_2_oggi.state | float(0)) + (states.sensor.panel_3_oggi.state | float(0)) + (states.sensor.panel_4_oggi.state | float(0)) + (states.sensor.panel_5_oggi.state | float(0)) + (states.sensor.panel_6_oggi.state | float(0)) + (states.sensor.panel_7_oggi.state | float(0)) + (states.sensor.panel_8_oggi.state | float(0))) | round(3) }}"
+        unit_of_measurement: 'Wh'
+
+################ PERCENTUALE DI PRODUZIONE DEI PANNELLI ####################################
+       percentuale_produzione_panel_1_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 1 Oggi "
+        unique_id: percentuale_produzione_panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_1_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_2_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 2 Oggi "
+        unique_id: percentuale_produzione_panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_2_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_3_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 3 Oggi "
+        unique_id: percentuale_produzione_panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_3_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_4_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 4 Oggi "
+        unique_id: percentuale_produzione_panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_4_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_5_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 5 Oggi "
+        unique_id: percentuale_produzione_panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_5_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_6_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 6 Oggi "
+        unique_id: percentuale_produzione_panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_6_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_7_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 7 Oggi "
+        unique_id: percentuale_produzione_panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_7_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+       percentuale_produzione_panel_8_oggi:
+        friendly_name_template: " Percentuale Produzione Panel 8 Oggi "
+        unique_id: percentuale_produzione_panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_8_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        unit_of_measurement: '%'
+
 #------------------calcoli ieri-----------------------------------------##
 
        panel_1_ieri:
@@ -297,4 +355,4 @@ script:
       - service: script.reload
       - service: notify.notify
         data:
-          message: 'Aggiornamento Pk Panel Solar Fatto, se vuoi puoi offrire un caffe al creatore del pacchetto a questo link https://xxxxxxxxxxx'
+          message: 'Aggiornamento Pk Panel Solar Fatto, se vuoi puoi offrire un caffe al creatore del pacchetto a questo link https://www.buymeacoffee.com/stepsolar'
