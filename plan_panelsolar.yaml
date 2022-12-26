@@ -1,0 +1,133 @@
+views:
+  - title: SunPower
+    theme: Google Light and Dark Theme
+    path: floorplan
+    panel: true
+    type: panel
+    cards:
+      - config:
+          image: /local/floorplan/solar/panelsolar.svg
+          rules:
+            - name: panel1
+              element: colorblu1
+              entity: sensor.power_1_1_1
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel2
+              element: colorblu2
+              entity: sensor.power_1_1_2
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel3
+              element: colorblu3
+              entity: sensor.power_1_1_3
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel4
+              element: colorblu4
+              entity: sensor.power_1_1_4
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel5
+              element: colorblu5
+              entity: sensor.power_1_1_5
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel6
+              element: colorblu6
+              entity: sensor.power_1_1_6
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5"; 
+            - name: panel7
+              element: colorblu7
+              entity: sensor.power_1_1_7
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel8
+              element: colorblu8
+              entity: sensor.power_1_1_8
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+          stylesheet: /local/floorplan/solar/panel.css
+        full_height: true
+        type: custom:floorplan-card
