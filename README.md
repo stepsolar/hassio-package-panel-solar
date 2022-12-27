@@ -8,6 +8,8 @@
 
 2. installare l'Integrazione [SolaredgeOptimizers](https://github.com/ProudElm/solaredgeoptimizers) <!-- omit in toc -->
 
+3. installare l'Integrazione [HA Floorplan](https://github.com/ExperienceLovelace/ha-floorplan) <!-- omit in toc -->
+
 ____________________________________
 
 Se il progetto ti è piaciuto clicca qui sotto per offrirmi un caffè
