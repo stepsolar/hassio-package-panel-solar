@@ -1,13 +1,129 @@
 views:
   - title: SunPower
+    autor: StepSolar
     theme: Google Light and Dark Theme
     path: floorplan
     panel: true
     type: panel
     cards:
       - config:
-          image: /local/floorplan/solar/panelsolar.svg
+          image:
+            location: /local/floorplan/solar/panelsunpower.svg
+          defaults:
+            tap_action: more-info
           rules:
+            - name: wattpower1
+              element: wattpanel1
+              entity: sensor.power_1_1_1
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower1
+              element: whpanel1
+              entity: sensor.panel_1_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower2
+              element: wattpanel2
+              entity: sensor.power_1_1_2
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower2
+              element: whpanel2
+              entity: sensor.panel_2_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower3
+              element: wattpanel3
+              entity: sensor.power_1_1_3
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower3
+              element: whpanel3
+              entity: sensor.panel_3_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower4
+              element: wattpanel4
+              entity: sensor.power_1_1_4
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower4
+              element: whpanel4
+              entity: sensor.panel_4_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower5
+              element: wattpanel5
+              entity: sensor.power_1_1_5
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower5
+              element: whpanel5
+              entity: sensor.panel_5_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower6
+              element: wattpanel6
+              entity: sensor.power_1_1_6
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower6
+              element: whpanel6
+              entity: sensor.panel_6_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower7
+              element: wattpanel7
+              entity: sensor.power_1_1_7
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower7
+              element: whpanel7
+              entity: sensor.panel_7_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower8
+              element: wattpanel8
+              entity: sensor.power_1_1_8
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower8
+              element: whpanel8
+              entity: sensor.panel_8_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
             - name: panel1
               element: colorblu1
               entity: sensor.power_1_1_1
@@ -128,6 +244,6 @@ views:
                     170) return "fill: #1E5B99"; else if (temp <= 200) return
                     "fill: #2163A5"; else if (temp <= 250) return "fill:
                     #2672BF"; else return "fill: #2D89E5";
-          stylesheet: /local/floorplan/solar/panel.css
+          stylesheet: /local/floorplan/solar/panelsunpower.css
         full_height: true
         type: custom:floorplan-card
