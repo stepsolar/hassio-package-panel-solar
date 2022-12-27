@@ -1,6 +1,6 @@
 # Package Panel Solar Optimizer Solaredge Home-Assistant [@stepsolar](https://github.com/stepsolar/) <!-- omit in toc -->
 
-![Header](https://github.com/stepsolar/hassio-package-panel-solar/blob/main/doc/panelsolar_new.png)
+![Header](https://github.com/stepsolar/hassio-package-panel-solar/blob/main/img/panelsolar_new.png)
 
 **INSTALLAZIONE**
 
