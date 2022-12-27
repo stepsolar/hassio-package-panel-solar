@@ -20,4 +20,4 @@ Se il progetto ti è piaciuto clicca qui sotto per offrirmi un caffè
 
 Ringraziamenti:
 
-[exetico](https://github.com/exetico) <!-- omit in toc -->
+[@exetico](https://github.com/exetico) <!-- omit in toc --> [@OzGav](https://github.com/OzGav)
