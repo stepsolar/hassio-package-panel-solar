@@ -8,7 +8,7 @@ views:
     cards:
       - config:
           image:
-            location: /local/floorplan/solar/panelsunpower_news.svg
+            location: /local/floorplan/solar/panelsunpower.svg
           rules:
             - name: wattpower1
               element: wattpanel1
