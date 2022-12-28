@@ -29,14 +29,14 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.1476306"
-     inkscape:cx="301.92643"
+     inkscape:cx="301.92642"
      inkscape:cy="233.52462"
      inkscape:window-width="1366"
      inkscape:window-height="745"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg736"
+     inkscape:current-layer="panelsolar"
      showguides="true">
     <sodipodi:guide
        position="353.06816,66.628174"
@@ -182,28 +182,28 @@
       <text
          xml:space="preserve"
          style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="48.559216"
+         x="89.502586"
          y="106.93099"
          id="wattpanel1"
          inkscape:label="wattpanel1"><tspan
            sodipodi:role="line"
            id="tspan1964"
-           x="48.559216"
+           x="90.002586"
            y="106.93099"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483"
            dx="0">000.00w</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="52.740166"
+         x="85.832939"
          y="135.756"
          id="whpanel1"
          inkscape:label="whpanel1"><tspan
            sodipodi:role="line"
            id="tspan3441-6-2-6"
-           x="52.740166"
+           x="86.332939"
            y="135.756"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
     </g>
     <g
        id="panel2">
@@ -325,27 +325,27 @@
       <text
          xml:space="preserve"
          style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="439.58994"
+         x="479.90439"
          y="105.23823"
          id="wattpanel2"
          inkscape:label="wattpanel2"><tspan
            sodipodi:role="line"
            id="tspan1964-9"
-           x="439.58994"
+           x="480.40439"
            y="105.23823"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="444.70023"
+         x="477.793"
          y="135.60118"
          id="whpanel2"
          inkscape:label="whpanel2"><tspan
            sodipodi:role="line"
            id="tspan3441-6-2-0"
-           x="444.70023"
+           x="478.293"
            y="135.60118"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
     </g>
     <g
        id="panel3"
@@ -445,30 +445,6 @@
            style="fill:#ffffff;stroke:#2a7296;stroke-miterlimit:10;stroke-opacity:1"
            id="line533" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="411.23825"
-         y="256.6384"
-         id="wattpanel3"
-         inkscape:label="wattpanel3"><tspan
-           sodipodi:role="line"
-           id="tspan1964-9-8-2"
-           x="411.23825"
-           y="256.6384"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="418.56638"
-         y="275.11703"
-         id="whpanel3"
-         inkscape:label="whpanel3"><tspan
-           sodipodi:role="line"
-           id="tspan3441-6-2-8"
-           x="418.56638"
-           y="275.11703"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
       <rect
          x="369.38"
          y="290.35001"
@@ -483,6 +459,30 @@
          height="101.35"
          style="display:inline;fill:none;stroke:#ffffff;stroke-width:3px;stroke-miterlimit:10"
          id="rect539" />
+      <text
+         xml:space="preserve"
+         style="display:inline;font-size:14px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="451.65915"
+         y="275.11703"
+         id="whpanel3"
+         inkscape:label="whpanel3"><tspan
+           sodipodi:role="line"
+           id="tspan3441-6-2-8"
+           x="452.15915"
+           y="275.11703"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
+      <text
+         xml:space="preserve"
+         style="display:inline;font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="451.5527"
+         y="256.6384"
+         id="wattpanel3"
+         inkscape:label="wattpanel3"><tspan
+           sodipodi:role="line"
+           id="tspan1964-9-8-2"
+           x="452.0527"
+           y="256.6384"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
     </g>
     <g
        id="panel4">
@@ -580,30 +580,6 @@
            style="fill:#fff;stroke:#2a7296;stroke-miterlimit:10;stroke-opacity:1"
            id="line501" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="248.18149"
-         y="274.61993"
-         id="whpanel4"
-         inkscape:label="whpanel4"><tspan
-           sodipodi:role="line"
-           id="tspan3441-6-2-1"
-           x="248.18149"
-           y="274.61993"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="239.1413"
-         y="255.89291"
-         id="wattpanel4"
-         inkscape:label="wattpanel4"><tspan
-           sodipodi:role="line"
-           id="tspan1964-9-8-42"
-           x="239.1413"
-           y="255.89291"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
       <rect
          x="199.45"
          y="290.06"
@@ -618,6 +594,30 @@
          height="101.35"
          style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"
          id="rect507" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="281.27426"
+         y="274.61993"
+         id="whpanel4"
+         inkscape:label="whpanel4"><tspan
+           sodipodi:role="line"
+           id="tspan3441-6-2-1"
+           x="281.77426"
+           y="274.61993"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="279.45575"
+         y="255.89291"
+         id="wattpanel4"
+         inkscape:label="wattpanel4"><tspan
+           sodipodi:role="line"
+           id="tspan1964-9-8-42"
+           x="279.95575"
+           y="255.89291"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
     </g>
     <g
        id="panel5">
@@ -715,30 +715,6 @@
            style="fill:#fff;stroke:#2a7296;stroke-miterlimit:10;stroke-opacity:1"
            id="line469" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="79.183662"
-         y="275.11157"
-         id="whpanel5"
-         inkscape:label="whpanel5"><tspan
-           sodipodi:role="line"
-           id="tspan3441-6-2"
-           x="79.183662"
-           y="275.11157"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="70.467712"
-         y="256.17917"
-         id="wattpanel5"
-         inkscape:label="wattpanel5"><tspan
-           sodipodi:role="line"
-           id="tspan1964-9-8-3"
-           x="70.467712"
-           y="256.17917"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
       <rect
          x="29.37"
          y="290.26"
@@ -753,6 +729,30 @@
          height="101.35"
          style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"
          id="rect475" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="112.27644"
+         y="275.11157"
+         id="whpanel5"
+         inkscape:label="whpanel5"><tspan
+           sodipodi:role="line"
+           id="tspan3441-6-2"
+           x="112.77644"
+           y="275.11157"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="110.78217"
+         y="256.17917"
+         id="wattpanel5"
+         inkscape:label="wattpanel5"><tspan
+           sodipodi:role="line"
+           id="tspan1964-9-8-3"
+           x="111.28217"
+           y="256.17917"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
     </g>
     <g
        id="panel6">
@@ -760,11 +760,11 @@
          id="g567">
         <rect
            id="colorblu6"
-           x="29.39"
-           y="326.68"
-           width="166.01"
-           height="69.04"
-           style="fill:#000000;stroke:#231f20;stroke-miterlimit:10" />
+           x="29.389999"
+           y="326.67999"
+           width="166.00999"
+           height="69.040001"
+           style="display:inline;fill:#000000;stroke:#231f20;stroke-miterlimit:10" />
         <line
            x1="176.99"
            y1="395.52"
@@ -850,30 +850,6 @@
            style="fill:#fff;stroke:#2a7296;stroke-miterlimit:10;stroke-opacity:1"
            id="line565" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="78.705635"
-         y="380.63663"
-         id="whpanel6"
-         inkscape:label="whpanel6"><tspan
-           sodipodi:role="line"
-           id="tspan3441-6"
-           x="78.705635"
-           y="380.63663"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="70.219383"
-         y="360.54089"
-         id="wattpanel6"
-         inkscape:label="wattpanel6"><tspan
-           sodipodi:role="line"
-           id="tspan1964-9-8-4"
-           x="70.219383"
-           y="360.54089"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
       <rect
          x="29.45"
          y="395.81"
@@ -888,6 +864,30 @@
          height="101.35"
          style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"
          id="rect571" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="111.79841"
+         y="380.63663"
+         id="whpanel6"
+         inkscape:label="whpanel6"><tspan
+           sodipodi:role="line"
+           id="tspan3441-6"
+           x="112.29841"
+           y="380.63663"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="110.53384"
+         y="360.54089"
+         id="wattpanel6"
+         inkscape:label="wattpanel6"><tspan
+           sodipodi:role="line"
+           id="tspan1964-9-8-4"
+           x="111.03384"
+           y="360.54089"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
     </g>
     <g
        id="panel7">
@@ -896,10 +896,10 @@
         <rect
            id="colorblu7"
            x="199.56"
-           y="326.76"
-           width="166.01"
-           height="69.04"
-           style="fill:#000000;stroke:#231f20;stroke-miterlimit:10" />
+           y="326.76001"
+           width="166.00999"
+           height="69.040001"
+           style="display:inline;fill:#000000;stroke:#231f20;stroke-miterlimit:10" />
         <line
            x1="347.16"
            y1="395.6"
@@ -985,30 +985,6 @@
            style="fill:#fff;stroke:#2a7296;stroke-miterlimit:10;stroke-opacity:1"
            id="line597" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="249.56691"
-         y="380.66788"
-         id="whpanel7"
-         inkscape:label="whpanel7"><tspan
-           sodipodi:role="line"
-           id="tspan3441-5"
-           x="249.56691"
-           y="380.66788"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="241.05608"
-         y="361.84048"
-         id="wattpanel7"
-         inkscape:label="wattpanel7"><tspan
-           sodipodi:role="line"
-           id="tspan1964-9-8-4-5"
-           x="241.05608"
-           y="361.84048"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
       <rect
          x="199.53"
          y="395.61"
@@ -1023,6 +999,30 @@
          height="101.35"
          style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"
          id="rect603" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="282.65967"
+         y="380.66788"
+         id="whpanel7"
+         inkscape:label="whpanel7"><tspan
+           sodipodi:role="line"
+           id="tspan3441-5"
+           x="283.15967"
+           y="380.66788"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="281.37054"
+         y="361.84048"
+         id="wattpanel7"
+         inkscape:label="wattpanel7"><tspan
+           sodipodi:role="line"
+           id="tspan1964-9-8-4-5"
+           x="281.87054"
+           y="361.84048"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
     </g>
     <g
        id="panel8"
@@ -1122,30 +1122,6 @@
            style="fill:#ffffff;stroke:#2a7296;stroke-miterlimit:10;stroke-opacity:1"
            id="line629" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:20px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="412.9635"
-         y="361.84048"
-         id="wattpanel8"
-         inkscape:label="wattpanel8"><tspan
-           sodipodi:role="line"
-           id="tspan1964-9-8-4-9"
-           x="412.9635"
-           y="361.84048"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00w</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:14px;letter-spacing:1px;display:inline;fill:#ffffff;stroke:none;stroke-width:2.74483"
-         x="419.61569"
-         y="380.00363"
-         id="whpanel8"
-         inkscape:label="whpanel8"><tspan
-           sodipodi:role="line"
-           id="tspan3441-5-9"
-           x="419.61569"
-           y="380.00363"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.74483;stroke:none">000.00wh</tspan></text>
       <rect
          x="369.4137"
          y="395.57077"
@@ -1160,6 +1136,30 @@
          height="101.35"
          style="display:inline;fill:none;stroke:#ffffff;stroke-width:3px;stroke-miterlimit:10"
          id="rect635" />
+      <text
+         xml:space="preserve"
+         style="display:inline;font-size:20px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="453.27795"
+         y="361.84048"
+         id="wattpanel8"
+         inkscape:label="wattpanel8"><tspan
+           sodipodi:role="line"
+           id="tspan1964-9-8-4-9"
+           x="453.77795"
+           y="361.84048"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00w</tspan></text>
+      <text
+         xml:space="preserve"
+         style="display:inline;font-size:14px;letter-spacing:1px;fill:#ffffff;stroke:none;stroke-width:2.74483"
+         x="452.70847"
+         y="380.00363"
+         id="whpanel8"
+         inkscape:label="whpanel8"><tspan
+           sodipodi:role="line"
+           id="tspan3441-5-9"
+           x="453.20847"
+           y="380.00363"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke:none;stroke-width:2.74483">000.00wh</tspan></text>
     </g>
   </g>
   <g
@@ -1398,3 +1398,4 @@
     </g>
   </g>
 </svg>
+
