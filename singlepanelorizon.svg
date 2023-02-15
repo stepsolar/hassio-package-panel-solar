@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 175.7 110.6" style="enable-background:new 0 0 175.7 110.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#202224;}
+	.st1{fill:#010101;stroke:#231F20;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#2C7397;stroke-miterlimit:10;}
+	.st3{fill:#010101;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'ArialMT';}
+	.st7{font-size:14px;}
+	.st8{font-size:20px;}
+	.st9{letter-spacing:1;}
+</style>
+<g id="sfondogrigio" transform="translate(3.0167348,-24.995803)">
+	<rect id="rect374" x="-1.4" y="26.4" class="st0" width="173.3" height="108.7"/>
+</g>
+<g id="panelsolar">
+	<g id="panel5">
+		<g id="g471">
+			<rect id="colorblu5" x="5.5" y="5.1" class="st1" width="166" height="69"/>
+			<line id="line447" class="st2" x1="153.1" y1="74" x2="153.1" y2="5.1"/>
+			<line id="line449" class="st2" x1="134.6" y1="73.7" x2="134.6" y2="5.1"/>
+			<line id="line451" class="st2" x1="116.2" y1="74" x2="116.2" y2="5.1"/>
+			<line id="line453" class="st2" x1="97.7" y1="73.7" x2="97.7" y2="5.1"/>
+			<line id="line455" class="st2" x1="79.3" y1="74.3" x2="79.3" y2="5.1"/>
+			<line id="line457" class="st2" x1="60.8" y1="73.7" x2="60.8" y2="5.1"/>
+			<line id="line459" class="st2" x1="42.4" y1="74.3" x2="42.4" y2="5.1"/>
+			<line id="line461" class="st2" x1="23.9" y1="74.2" x2="23.9" y2="5.1"/>
+			<line id="line463" class="st2" x1="5.5" y1="19" x2="171.5" y2="19"/>
+			<line id="line465" class="st2" x1="5.5" y1="32.8" x2="171.5" y2="32.8"/>
+			<line id="line467" class="st2" x1="5.5" y1="46.6" x2="171.5" y2="46.6"/>
+			<line id="line469" class="st2" x1="5.5" y1="60.5" x2="171.5" y2="60.5"/>
+		</g>
+		<rect id="rect473" x="5.4" y="74.3" class="st3" width="166.1" height="32.4"/>
+		<rect id="rect475" x="5.4" y="5.3" class="st4" width="166.1" height="101.4"/>
+		<text transform="matrix(1 0 0 1 54.418 59.1116)" class="st5 st6 st7">000.00wh</text>
+		<text transform="matrix(1 0 0 1 45.9745 40.1792)" class="st5 st6 st8 st9">000.00w</text>
+	</g>
+</g>
+<g id="nomepanel">
+	<g id="name" transform="translate(-0.05777294,0.98214004)">
+		<path id="path687" class="st5" d="M58.5,97.2h3.9v-9.9h-3v-1.1c1.2-0.1,2.4-0.5,3.5-1h1.3v12h3.5v1.5h-9.2
+			C58.5,98.7,58.5,97.2,58.5,97.2z"/>
+		<path id="path689" class="st5" d="M73.7,97.1c-0.1-0.9,0.6-1.8,1.6-1.8c0.9-0.1,1.8,0.6,1.8,1.6c0,0.1,0,0.2,0,0.3
+			c0.1,0.9-0.6,1.8-1.6,1.8c-0.9,0.1-1.8-0.6-1.8-1.6C73.7,97.3,73.7,97.2,73.7,97.1z"/>
+		<path id="path691" class="st5" d="M83.9,97.2h3.9v-9.9h-3v-1.1c1.2-0.1,2.4-0.5,3.5-1h1.3v12h3.5v1.5h-9.2L83.9,97.2z"/>
+		<path id="path693" class="st5" d="M99.1,97.1c0-0.9,0.8-1.7,1.8-1.6s1.7,0.8,1.6,1.8c0,0.9-0.8,1.6-1.7,1.6
+			C99.9,98.9,99.1,98.1,99.1,97.1C99.1,97.2,99.1,97.1,99.1,97.1z"/>
+		<path id="path695" class="st5" d="M108.4,97l0.9-1.2c1,1,2.4,1.6,3.8,1.5c1.7,0.2,3.2-1.1,3.4-2.8c0-0.1,0-0.2,0-0.2
+			c0-1.9-1.3-2.9-3.3-2.9c-1,0-1.9,0.3-2.8,0.8l-0.9-0.6l0.4-6.5h7.6v1.5h-6.1l-0.4,4c0.8-0.4,1.6-0.6,2.5-0.5
+			c2.6,0,4.6,1.3,4.6,4.2c0,2.9-2.4,4.6-5,4.6C111.4,99,109.7,98.3,108.4,97L108.4,97z"/>
+	</g>
+</g>
+</svg>
