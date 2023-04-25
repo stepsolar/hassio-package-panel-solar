@@ -1891,21 +1891,182 @@ sensor:
 
 
 
-
-
-
-
-
-
-
-################ PRODUZIONE TOTALE PANNELLI ################################################
-       produzione_panel_totale_oggi:
-        friendly_name_template: " Produzione Panel Totale Oggi "
-        unique_id: produzione_panel_totale_energy
+################ PRODUZIONE TOTALE PANNELLI F1 - F2 -F3 ################################################
+       produzione_panel_totale_oggi_f1:
+        friendly_name_template: " Produzione Panel Totale Oggi F1 "
+        unique_id: produzione_panel_totale_energy_f1
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_1_oggi.state | float(0)) + (states.sensor.panel_2_oggi.state | float(0)) + (states.sensor.panel_3_oggi.state | float(0)) + (states.sensor.panel_4_oggi.state | float(0)) + (states.sensor.panel_5_oggi.state | float(0)) + (states.sensor.panel_6_oggi.state | float(0)) + (states.sensor.panel_7_oggi.state | float(0)) + (states.sensor.panel_8_oggi.state | float(0))) | round(3) }}"
+        value_template: "{{((states.sensor.panel_1_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_2_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_3_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_4_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_5_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_6_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_7_oggi_f1.state | float(0))
+        + (states.sensor.panel_8_oggi_f1.state | float(0))
+        + (states.sensor.panel_9_oggi_f1.state | float(0))
+        + (states.sensor.panel_10_oggi_f1.state | float(0))
+        + (states.sensor.panel_11_oggi_f1.state | float(0))
+        + (states.sensor.panel_12_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_13_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_14_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_15_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_16_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_17_oggi_f1.state | float(0))
+        + (states.sensor.panel_18_oggi_f1.state | float(0))
+        + (states.sensor.panel_19_oggi_f1.state | float(0))
+        + (states.sensor.panel_20_oggi_f1.state | float(0))
+        + (states.sensor.panel_21_oggi_f1.state | float(0))
+        + (states.sensor.panel_22_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_23_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_24_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_25_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_26_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_27_oggi_f1.state | float(0))
+        + (states.sensor.panel_28_oggi_f1.state | float(0))
+        + (states.sensor.panel_29_oggi_f1.state | float(0))
+        + (states.sensor.panel_30_oggi_f1.state | float(0))
+        + (states.sensor.panel_31_oggi_f1.state | float(0))
+        + (states.sensor.panel_32_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_33_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_34_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_35_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_36_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_37_oggi_f1.state | float(0))
+        + (states.sensor.panel_38_oggi_f1.state | float(0))
+        + (states.sensor.panel_39_oggi_f1.state | float(0))
+        + (states.sensor.panel_40_oggi_f1.state | float(0))
+        + (states.sensor.panel_41_oggi_f1.state | float(0))
+        + (states.sensor.panel_42_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_43_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_44_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_45_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_46_oggi_f1.state | float(0)) 
+        + (states.sensor.panel_47_oggi_f1.state | float(0))
+        + (states.sensor.panel_48_oggi_f1.state | float(0))
+        + (states.sensor.panel_49_oggi_f1.state | float(0))
+        + (states.sensor.panel_50_oggi_f1.state | float(0))) | round(3) }}"
         unit_of_measurement: 'Wh'
-
+       produzione_panel_totale_oggi_f2:
+        friendly_name_template: " Produzione Panel Totale Oggi F2 "
+        unique_id: produzione_panel_totale_energy_f2
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_1_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_2_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_3_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_4_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_5_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_6_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_7_oggi_f2.state | float(0))
+        + (states.sensor.panel_8_oggi_f2.state | float(0))
+        + (states.sensor.panel_9_oggi_f2.state | float(0))
+        + (states.sensor.panel_10_oggi_f2.state | float(0))
+        + (states.sensor.panel_11_oggi_f2.state | float(0))
+        + (states.sensor.panel_12_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_13_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_14_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_15_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_16_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_17_oggi_f2.state | float(0))
+        + (states.sensor.panel_18_oggi_f2.state | float(0))
+        + (states.sensor.panel_19_oggi_f2.state | float(0))
+        + (states.sensor.panel_20_oggi_f2.state | float(0))
+        + (states.sensor.panel_21_oggi_f2.state | float(0))
+        + (states.sensor.panel_22_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_23_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_24_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_25_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_26_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_27_oggi_f2.state | float(0))
+        + (states.sensor.panel_28_oggi_f2.state | float(0))
+        + (states.sensor.panel_29_oggi_f2.state | float(0))
+        + (states.sensor.panel_30_oggi_f2.state | float(0))
+        + (states.sensor.panel_31_oggi_f2.state | float(0))
+        + (states.sensor.panel_32_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_33_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_34_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_35_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_36_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_37_oggi_f2.state | float(0))
+        + (states.sensor.panel_38_oggi_f2.state | float(0))
+        + (states.sensor.panel_39_oggi_f2.state | float(0))
+        + (states.sensor.panel_40_oggi_f2.state | float(0))
+        + (states.sensor.panel_41_oggi_f2.state | float(0))
+        + (states.sensor.panel_42_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_43_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_44_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_45_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_46_oggi_f2.state | float(0)) 
+        + (states.sensor.panel_47_oggi_f2.state | float(0))
+        + (states.sensor.panel_48_oggi_f2.state | float(0))
+        + (states.sensor.panel_49_oggi_f2.state | float(0))
+        + (states.sensor.panel_50_oggi_f2.state | float(0))) | round(3) }}"
+        unit_of_measurement: 'Wh'
+       produzione_panel_totale_oggi_f3:
+        friendly_name_template: " Produzione Panel Totale Oggi F3 "
+        unique_id: produzione_panel_totale_energy_f3
+        icon_template: mdi:counter
+        value_template: "{{((states.sensor.panel_1_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_2_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_3_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_4_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_5_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_6_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_7_oggi_f3.state | float(0))
+        + (states.sensor.panel_8_oggi_f3.state | float(0))
+        + (states.sensor.panel_9_oggi_f3.state | float(0))
+        + (states.sensor.panel_10_oggi_f3.state | float(0))
+        + (states.sensor.panel_11_oggi_f3.state | float(0))
+        + (states.sensor.panel_12_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_13_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_14_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_15_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_16_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_17_oggi_f3.state | float(0))
+        + (states.sensor.panel_18_oggi_f3.state | float(0))
+        + (states.sensor.panel_19_oggi_f3.state | float(0))
+        + (states.sensor.panel_20_oggi_f3.state | float(0))
+        + (states.sensor.panel_21_oggi_f3.state | float(0))
+        + (states.sensor.panel_22_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_23_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_24_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_25_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_26_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_27_oggi_f3.state | float(0))
+        + (states.sensor.panel_28_oggi_f3.state | float(0))
+        + (states.sensor.panel_29_oggi_f3.state | float(0))
+        + (states.sensor.panel_30_oggi_f3.state | float(0))
+        + (states.sensor.panel_31_oggi_f3.state | float(0))
+        + (states.sensor.panel_32_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_33_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_34_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_35_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_36_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_37_oggi_f3.state | float(0))
+        + (states.sensor.panel_38_oggi_f3.state | float(0))
+        + (states.sensor.panel_39_oggi_f3.state | float(0))
+        + (states.sensor.panel_40_oggi_f3.state | float(0))
+        + (states.sensor.panel_41_oggi_f3.state | float(0))
+        + (states.sensor.panel_42_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_43_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_44_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_45_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_46_oggi_f3.state | float(0)) 
+        + (states.sensor.panel_47_oggi_f3.state | float(0))
+        + (states.sensor.panel_48_oggi_f3.state | float(0))
+        + (states.sensor.panel_49_oggi_f3.state | float(0))
+        + (states.sensor.panel_50_oggi_f3.state | float(0))) | round(3) }}"
+        unit_of_measurement: 'Wh'
+       somma_f1_f2_f3_panel_totale:
+        friendly_name_template: " Somma F1 F2 F3 Panel Totale Oggi "
+        unique_id: somma_f1_f2_f3_panel_totale_energy
+        icon_template: mdi:counter
+        value_template: "{{((states.produzione_panel_totale_oggi_f1.state | float(0)) 
+        + (states.produzione_panel_totale_oggi_f2.state | float(0)) 
+        + (states.produzione_panel_totale_oggi_f3.state | float(0))) | round(3) }}"
+        unit_of_measurement: 'Wh'
+        
+        
 ################ PERCENTUALE DI PRODUZIONE DEI PANNELLI ####################################
        percentuale_produzione_panel_1_oggi:
         friendly_name_template: " Percentuale Produzione Panel 1 Oggi "
