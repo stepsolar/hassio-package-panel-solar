@@ -987,54 +987,916 @@ sensor:
 
    - platform: template
      sensors:
-       panel_1_oggi:
-        friendly_name_template: " Panel 1 Energy "
+       panel_1_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_1_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_2_oggi:
-        friendly_name_template: " Panel 2 Energy "
+       panel_1_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_1_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_2_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_2_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_2.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_3_oggi:
-        friendly_name_template: " Panel 3 Energy "
+       panel_2_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_2_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_3_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_3_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_3.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_4_oggi:
-        friendly_name_template: " Panel 4 Energy "
+       panel_3_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_3_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_4_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_4_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_4.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_5_oggi:
-        friendly_name_template: " Panel 5 Energy "
+       panel_4_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_4_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_5_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_5_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_5.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_6_oggi:
-        friendly_name_template: " Panel 6 Energy "
+       panel_5_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_5_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_6_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_6_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_6.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_7_oggi:
-        friendly_name_template: " Panel 7 Energy "
+       panel_6_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_6_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_7_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_7_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_7.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_8_oggi:
-        friendly_name_template: " Panel 8 Energy "
+       panel_7_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_7_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_8_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
         unique_id: panel_8_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_8.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
+       panel_8_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_8_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_9_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_9_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_9_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_10_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_10_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_10_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_11_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_11_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_11_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_12_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_12_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_12_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_13_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_13_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_13_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_14_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_14_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_14_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_15_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_15_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_15_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_16_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_16_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_16_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_17_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_17_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_17_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_18_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_18_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_18_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_19_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_19_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_19_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_20_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_20_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_20_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_21_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_21_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_21_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_22_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_22_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_22_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_23_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_23_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_23_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_24_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_24_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_24_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_25_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_25_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_25_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_26_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_26_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_26_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_27_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_27_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_27_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_28_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_28_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_28_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_29_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_29_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_29_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_30_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_30_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_30_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_31_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_31_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_31_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_32_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_32_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_32_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_33_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_33_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_33_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_34_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_34_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_34_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_35_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_35_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_35_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_36_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_36_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_36_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_37_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_37_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_37_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_38_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_38_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_38_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_39_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_39_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_39_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_40_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_40_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_40_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_41_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_41_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_41_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_1_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_42_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_42_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_42_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_2_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_43_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_43_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_43_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_3_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_44_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_44_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_44_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_4_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_45_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_45_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_45_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_5_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_46_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_46_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_46_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_6_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_47_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_47_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_47_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_7_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_48_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_48_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_48_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_8_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_49_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_49_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_49_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_9_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_50_oggi_f1:
+        friendly_name_template: " Panel 1 Energy F1"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_50_oggi_f2:
+        friendly_name_template: " Panel 1 Energy F2"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f2.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+       panel_50_oggi_f3:
+        friendly_name_template: " Panel 1 Energy F3"
+        unique_id: panel_10_energy
+        icon_template: mdi:counter
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f3.state | float * 1000 }}"
+        unit_of_measurement: 'Wh'
+
+
+
+
+
+
+
+
+
+
 
 ################ PRODUZIONE TOTALE PANNELLI ################################################
        produzione_panel_totale_oggi:
