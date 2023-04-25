@@ -3,7 +3,7 @@ homeassistant:
     package.node_anchors:
       customize: &customize
         Package: 'Contatore Pannelli Solari'
-        Version: '0.1.6'
+        Version: '0.2.0'
         Author: 'Stefano Marchese'
         icon: 'mdi:counter'
         #entity_picture: https://avatars.githubusercontent.com/u/84263865?s=400&v=4
@@ -29,9 +29,292 @@ homeassistant:
     sensor.produzione_giornaliero_panel_7_f1:
         <<: *customize        
     sensor.produzione_giornaliero_panel_8_f1:
+        <<: *customize      
+    sensor.produzione_giornaliero_panel_9_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_10_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_11_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_12_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_13_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_14_f1:
         <<: *customize        
-                       
-        
+    sensor.produzione_giornaliero_panel_15_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_16_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_17_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_18_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_19_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_20_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_21_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_22_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_23_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_24_f1:
+        <<: *customize                         
+    sensor.produzione_giornaliero_panel_25_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_26_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_27_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_28_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_29_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_30_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_31_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_32_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_33_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_34_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_35_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_36_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_37_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_38_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_39_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_40_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_41_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_42_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_43_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_44_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_45_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_46_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_47_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_48_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_49_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_50_f1:
+        <<: *customize  
+     sensor.produzione_giornaliero_panel_1_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_2_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_3_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_4_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_5_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_6_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_7_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_8_f2:
+        <<: *customize      
+    sensor.produzione_giornaliero_panel_9_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_10_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_11_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_12_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_13_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_14_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_15_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_16_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_17_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_18_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_19_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_20_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_21_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_22_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_23_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_24_f2:
+        <<: *customize                         
+    sensor.produzione_giornaliero_panel_25_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_26_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_27_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_28_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_29_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_30_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_31_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_32_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_33_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_34_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_35_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_36_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_37_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_38_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_39_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_40_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_41_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_42_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_43_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_44_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_45_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_46_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_47_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_48_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_49_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_50_f2:
+        <<: *customize  
+     sensor.produzione_giornaliero_panel_1_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_2_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_3_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_4_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_5_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_6_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_7_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_8_f3:
+        <<: *customize      
+    sensor.produzione_giornaliero_panel_9_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_10_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_11_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_12_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_13_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_14_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_15_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_16_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_17_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_18_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_19_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_20_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_21_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_22_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_23_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_24_f3:
+        <<: *customize                         
+    sensor.produzione_giornaliero_panel_25_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_26_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_27_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_28_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_29_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_30_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_31_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_32_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_33_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_34_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_35_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_36_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_37_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_38_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_39_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_40_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_41_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_42_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_43_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_44_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_45_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_46_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_47_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_48_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_49_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_50_f3:
+        <<: *customize  
+ 
   customize_glob:
     sensor.produzione_giornaliero_panel_1_f1:
         <<: *customize
@@ -48,7 +331,291 @@ homeassistant:
     sensor.produzione_giornaliero_panel_7_f1:
         <<: *customize        
     sensor.produzione_giornaliero_panel_8_f1:
-        <<: *customize 
+        <<: *customize      
+    sensor.produzione_giornaliero_panel_9_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_10_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_11_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_12_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_13_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_14_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_15_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_16_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_17_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_18_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_19_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_20_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_21_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_22_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_23_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_24_f1:
+        <<: *customize                         
+    sensor.produzione_giornaliero_panel_25_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_26_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_27_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_28_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_29_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_30_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_31_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_32_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_33_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_34_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_35_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_36_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_37_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_38_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_39_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_40_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_41_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_42_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_43_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_44_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_45_f1:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_46_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_47_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_48_f1:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_49_f1:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_50_f1:
+        <<: *customize  
+     sensor.produzione_giornaliero_panel_1_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_2_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_3_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_4_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_5_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_6_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_7_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_8_f2:
+        <<: *customize      
+    sensor.produzione_giornaliero_panel_9_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_10_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_11_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_12_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_13_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_14_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_15_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_16_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_17_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_18_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_19_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_20_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_21_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_22_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_23_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_24_f2:
+        <<: *customize                         
+    sensor.produzione_giornaliero_panel_25_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_26_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_27_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_28_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_29_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_30_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_31_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_32_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_33_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_34_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_35_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_36_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_37_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_38_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_39_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_40_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_41_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_42_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_43_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_44_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_45_f2:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_46_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_47_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_48_f2:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_49_f2:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_50_f2:
+        <<: *customize  
+     sensor.produzione_giornaliero_panel_1_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_2_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_3_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_4_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_5_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_6_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_7_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_8_f3:
+        <<: *customize      
+    sensor.produzione_giornaliero_panel_9_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_10_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_11_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_12_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_13_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_14_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_15_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_16_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_17_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_18_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_19_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_20_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_21_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_22_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_23_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_24_f3:
+        <<: *customize                         
+    sensor.produzione_giornaliero_panel_25_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_26_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_27_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_28_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_29_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_30_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_31_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_32_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_33_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_34_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_35_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_36_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_37_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_38_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_39_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_40_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_41_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_42_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_43_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_44_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_45_f3:
+        <<: *customize
+    sensor.produzione_giornaliero_panel_46_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_47_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_48_f3:
+        <<: *customize  
+    sensor.produzione_giornaliero_panel_49_f3:
+        <<: *customize        
+    sensor.produzione_giornaliero_panel_50_f3:
+        <<: *customize  
 
 
 #downloader:
@@ -59,44 +626,351 @@ utility_meter:
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_2:
     source: !secret Pannello2
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_3:
     source: !secret Pannello3
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_4:
     source: !secret Pannello4
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_5:
     source: !secret Pannello5
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_6:
     source: !secret Pannello6
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_7:
     source: !secret Pannello7
     cycle: daily 
     tariffs:
       - f1
+      - f2
+      - f3
   produzione_giornaliero_panel_8:
     source: !secret Pannello8
     cycle: daily 
     tariffs:
       - f1
-
-
-
+      - f2
+      - f3
+  produzione_giornaliero_panel_9:
+    source: !secret Pannello9
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_10:
+    source: !secret Pannello10
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_11:
+    source: !secret Pannello11
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_12:
+    source: !secret Pannello12
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_13:
+    source: !secret Pannello13
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_14:
+    source: !secret Pannello14
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_15:
+    source: !secret Pannello15
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_16:
+    source: !secret Pannello16
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_17:
+    source: !secret Pannello17
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_18:
+    source: !secret Pannello18
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_19:
+    source: !secret Pannello19
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_20:
+    source: !secret Pannello20
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_21:
+    source: !secret Pannello21
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_22:
+    source: !secret Pannello22
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_23:
+    source: !secret Pannello23
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_24:
+    source: !secret Pannello24
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_25:
+    source: !secret Pannello25
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_26:
+    source: !secret Pannello26
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_27:
+    source: !secret Pannello27
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_28:
+    source: !secret Pannello28
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_29:
+    source: !secret Pannello29
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_30:
+    source: !secret Pannello30
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_31:
+    source: !secret Pannello31
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_32:
+    source: !secret Pannello32
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_33:
+    source: !secret Pannello33
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_34:
+    source: !secret Pannello34
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_35:
+    source: !secret Pannello35
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_36:
+    source: !secret Pannello36
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_37:
+    source: !secret Pannello37
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_38:
+    source: !secret Pannello38
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_39:
+    source: !secret Pannello39
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_40:
+    source: !secret Pannello40
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_41:
+    source: !secret Pannello41
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_42:
+    source: !secret Pannello42
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_43:
+    source: !secret Pannello43
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_44:
+    source: !secret Pannello44
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_45:
+    source: !secret Pannello45
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_46:
+    source: !secret Pannello46
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_47:
+    source: !secret Pannello47
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_48:
+    source: !secret Pannello48
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_49:
+    source: !secret Pannello49
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
+  produzione_giornaliero_panel_50:
+    source: !secret Pannello50
+    cycle: daily 
+    tariffs:
+      - f1
+      - f2
+      - f3
 
 sensor:
    - platform: rest
@@ -117,49 +991,49 @@ sensor:
         friendly_name_template: " Panel 1 Energy "
         unique_id: panel_1_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_2_oggi:
         friendly_name_template: " Panel 2 Energy "
         unique_id: panel_2_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_2.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_3_oggi:
         friendly_name_template: " Panel 3 Energy "
         unique_id: panel_3_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_3.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_4_oggi:
         friendly_name_template: " Panel 4 Energy "
         unique_id: panel_4_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_4.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_5_oggi:
         friendly_name_template: " Panel 5 Energy "
         unique_id: panel_5_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_5.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_6_oggi:
         friendly_name_template: " Panel 6 Energy "
         unique_id: panel_6_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_6.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_7_oggi:
         friendly_name_template: " Panel 7 Energy "
         unique_id: panel_7_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_7.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_8_oggi:
         friendly_name_template: " Panel 8 Energy "
         unique_id: panel_8_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.produzione_giornaliero_panel_8.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
 
 ################ PRODUZIONE TOTALE PANNELLI ################################################
