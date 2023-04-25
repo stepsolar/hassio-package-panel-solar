@@ -290,7 +290,7 @@ views:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
-                        - name: wattpower1
+            - name: wattpower21
               element: wattpanel21
               entity: sensor.power_1_1_21
               state_action:
