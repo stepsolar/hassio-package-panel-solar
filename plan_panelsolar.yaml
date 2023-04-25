@@ -122,6 +122,174 @@ views:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
+            - name: wattpower9
+              element: wattpanel9
+              entity: sensor.power_1_1_9
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower9
+              element: whpanel9
+              entity: sensor.panel_9_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower10
+              element: wattpanel10
+              entity: sensor.power_1_1_10
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower10
+              element: whpanel10
+              entity: sensor.panel_10_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower11
+              element: wattpanel11
+              entity: sensor.power_1_1_11
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower11
+              element: whpanel11
+              entity: sensor.panel_11_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower12
+              element: wattpanel12
+              entity: sensor.power_1_1_12
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower12
+              element: whpanel12
+              entity: sensor.panel_12_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower13
+              element: wattpanel13
+              entity: sensor.power_1_1_13
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower13
+              element: whpanel13
+              entity: sensor.panel_13_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower14
+              element: wattpanel14
+              entity: sensor.power_1_1_14
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower14
+              element: whpanel14
+              entity: sensor.panel_14_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower15
+              element: wattpanel15
+              entity: sensor.power_1_1_15
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower15
+              element: whpanel15
+              entity: sensor.panel_15_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower16
+              element: wattpanel16
+              entity: sensor.power_1_1_16
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower16
+              element: whpanel16
+              entity: sensor.panel_16_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower17
+              element: wattpanel17
+              entity: sensor.power_1_1_17
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower17
+              element: whpanel17
+              entity: sensor.panel_17_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower18
+              element: wattpanel18
+              entity: sensor.power_1_1_18
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower18
+              element: whpanel18
+              entity: sensor.panel_18_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower19
+              element: wattpanel19
+              entity: sensor.power_1_1_19
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower19
+              element: whpanel19
+              entity: sensor.panel_19_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower20
+              element: wattpanel20
+              entity: sensor.power_1_1_20
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower20
+              element: whpanel20
+              entity: sensor.panel_20_oggi
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
             - name: panel1
               element: colorblu1
               entity: sensor.power_1_1_1
